@@ -28,11 +28,18 @@ This work extends upon our previous publication ``Graph based Incident Extractio
 The GEM framework has different requirements for incident detection and incident diagnosis components. Install the appropriate dependencies based on your use case:
 
 ### 🔍 For Incident Detection
+The following two dependencies are tested on Python 3.7 and 3.8 (recommended). 
+
 ```bash
-pip install -r requirements_for_incident_detection.txt
+pip install -r requirements_for_incident_detection_py37.txt
+```
+
+```bash
+pip install -r requirements_for_incident_detection_py38.txt
 ```
 
 ### 🩺 For Incident Diagnosis
+The following dependency is tested on Python 3.8.
 ```bash
 pip install -r requirements_for_incident_diagnosis.txt
 ```
