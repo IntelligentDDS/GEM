@@ -2,11 +2,11 @@
 
 This repo provides official code for "Subgraphs as First-Class Citizens in Incident Management for Large-Scale Online Systems: An Evolution-Aware Framework".
 
-# Introduction
+# 📖 Introduction
 
 This work extends upon our previous publication ``Graph based Incident Extraction and Diagnosis in Large-Scale Online Systems'' at the 37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2022)''.
 
-## Project Structure
+## 🏗️ Project Structure
 
 - `./data` contains the simulation environment dataset and open-sourced datasets used for helping the understanding and reporduction of each step of GEM.
 - `./src` contains the implementation of GEM extracted for reproduction. 
@@ -21,23 +21,23 @@ This work extends upon our previous publication ``Graph based Incident Extractio
 
 
 
-# Usage
+# 🚀 Usage
 
-## Prerequisites
+## ⚙️ Prerequisites
 
 The GEM framework has different requirements for incident detection and incident diagnosis components. Install the appropriate dependencies based on your use case:
 
-### For Incident Detection
+### 🔍 For Incident Detection
 ```bash
 pip install -r requirements_for_incident_detection.txt
 ```
 
-### For Incident Diagnosis
+### 🩺 For Incident Diagnosis
 ```bash
 pip install -r requirements_for_incident_diagnosis.txt
 ```
 
-## Quick Start
+## ⚡ Quick Start
 
 The GEM framework follows a sequential workflow for incident management in large-scale online systems. Follow these steps in order:
 
@@ -136,7 +136,7 @@ from incident_diagnosis import incident_diagnosis
 # See demo/incident_diagnosis_using_node_clues_with_continual_optimization_AIOPS2021.ipynb
 ```
 
-## Detailed Examples
+## 📚 Detailed Examples
 
 For comprehensive examples and detailed implementations, refer to the Jupyter notebooks in the `./demo` directory:
 
@@ -148,7 +148,7 @@ For comprehensive examples and detailed implementations, refer to the Jupyter no
 6. **Incident Diagnosis (Node Clues - OB)**: `demo/incident_diagnosis_using_node_clues_with_continual_optimization_OB.ipynb`
 7. **Incident Diagnosis (Node Clues - AIOPS2021)**: `demo/incident_diagnosis_using_node_clues_with_continual_optimization_AIOPS2021.ipynb`
 
-## Data Structure
+## 🏷️ Data Files
 
 The framework works with the following data files:
 
@@ -160,17 +160,17 @@ The framework works with the following data files:
 - `train_cases.pkl` / `test_cases.pkl`: Preprocessed training and testing datasets
 - `AIOPS2021.pkl` / `OB.pkl`: Specific datasets for evaluation
 
-## Model Files
+## 🤖 Model Files
 
 Pre-trained models are available in the `./demo` directory:
 - `FinalModel_OnlineBoutique.pt`: Trained model for Online Boutique dataset
 
-## API Reference
+## 📋 API Reference
 
 Below is the detailed API documentation for GEM.
 
 
-### Incident Detection Module
+### 🔍 Incident Detection Module
 
 #### `callSpatioDevNet`
 
@@ -282,7 +282,7 @@ Find optimal threshold using binary search for best F1-score.
 - `results` (tuple): Precision, recall, F-score metrics
 - `threshold` (float): Optimal threshold
 
-### Incident Diagnosis Module
+### 🩺 Incident Diagnosis Module
 
 #### Core Functions
 
@@ -374,7 +374,7 @@ Evaluate diagnosis performance on historical data.
 - `reward` (float): Accuracy reward
 - `punishment` (float): Regularization punishment
 
-### Data Structures
+### 📊 Data Structures
 
 #### Topology Format
 ```python
@@ -410,11 +410,11 @@ data = Data(
 )
 ```
 
-### Constants
+### 🔧 Global Configuration
 
 - `DAMPING = 0.1`: PageRank damping factor for root cause localization
 
-### Example Usage
+### 💡 Example Usage
 
 ```python
 # Incident Detection
@@ -450,7 +450,7 @@ root_cause = root_cause_localization(
 
 
 
-## Troubleshooting
+## 🛠️ Troubleshooting
 
 - Ensure you have the correct Python version (3.7+)
 - Install PyTorch with appropriate CUDA support if using GPU
@@ -458,7 +458,7 @@ root_cause = root_cause_localization(
 - Make sure all data files are in the correct `./data` directory
 
 
-# Citation
+# 📝 Citation
 
 If you find this work useful, please cite our paper:
 
