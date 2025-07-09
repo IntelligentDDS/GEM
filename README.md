@@ -1,6 +1,6 @@
 # GEM
 
-This repo provides official code for "Subgraphs as First-Class Citizens in Incident Management for Large-Scale Online Systems: An Evolution-Aware Framework".
+This repo provides official code for "Subgraphs as First-Class Citizens in Incident Management for Large-Scale Online Systems: An Evolution-Aware Framework" (TSE 2025).
 
 # 📖 Introduction
 
