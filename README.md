@@ -470,6 +470,16 @@ root_cause = root_cause_localization(
 If you find this work useful, please cite our paper:
 
 ```
+@article{he2025subgraphs,
+  title={Subgraphs as First-Class Citizens in Incident Management for Large-Scale Online Systems: An Evolution-Aware Framework},
+  author={He, Zilong and Chen, Pengfei and Luo, Yu and Yan, Qiuyu and Chen, Hongyang and Yu, Guangba and Li, Fangyuan and Li, Xiaoyun and Zheng, Zibin},
+  journal={IEEE Transactions on Software Engineering},
+  year={2025},
+  publisher={IEEE}
+}
+```
+
+```
 @inproceedings{DBLP:conf/kbse/HeCLYCYL22,
   author       = {Zilong He and
                   Pengfei Chen and
